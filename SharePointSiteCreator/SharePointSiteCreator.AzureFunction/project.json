@@ -1,0 +1,11 @@
+{
+    "frameworks": {
+        "net46" : {
+            "dependencies": {
+                "Microsoft.SharePointOnline.CSOM" : "16.1.5312.1200",
+                "Microsoft.IdentityModel": "6.1.7600.16394",
+                "Microsoft.Identity.Model.Extensions": "2.0.1459"
+            }
+        }
+    }
+}

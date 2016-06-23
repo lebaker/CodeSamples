@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointSiteCreator.CRMCustomWorkflow", "SharePointSiteCreator.CRMCustomWorkflow\SharePointSiteCreator.CRMCustomWorkflow.csproj", "{E7F01DC2-FEE8-425B-B9F6-B29F7654B194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointSiteCreator.SharePoint", "SharePointSiteCreator.SharePoint\SharePointSiteCreator.SharePoint.csproj", "{8E3C529C-E56F-48CF-838D-7EB4FA37D576}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7F01DC2-FEE8-425B-B9F6-B29F7654B194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F01DC2-FEE8-425B-B9F6-B29F7654B194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F01DC2-FEE8-425B-B9F6-B29F7654B194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F01DC2-FEE8-425B-B9F6-B29F7654B194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3C529C-E56F-48CF-838D-7EB4FA37D576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3C529C-E56F-48CF-838D-7EB4FA37D576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3C529C-E56F-48CF-838D-7EB4FA37D576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3C529C-E56F-48CF-838D-7EB4FA37D576}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
