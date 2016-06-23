@@ -1,0 +1,23 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" data-ng-app="linkedRelationsApp">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="/WebResources/sc_angular.min.js" type="text/javascript"></script>
+    <script src="/WebResources/sc_app.js" type="text/javascript"></script>
+    <script src="/WebResources/sc_uigrid.min.js" type="text/javascript"></script>
+    <link href="/WebResources/sc_style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div ng-app="app" ng-controller="mainController">
+           <form name="linkedRelationsForm">
+                <div class="headerbar">
+                    <div class="title-content">
+                        <span>Accounts</span>
+                    </div>
+                    <div class="button-content pull-right"><a href="javascript://" ng-click="loadAllData()" class="ui-grid-icon-refresh-button"></a></div>
+                </div>
+                <div id="grid1" ui-grid="gridOptions" ui-grid-tree-view class="grid"></div>
+            </form>
+    </div>
+</body>
+</html>
